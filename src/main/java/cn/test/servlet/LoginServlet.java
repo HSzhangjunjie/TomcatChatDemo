@@ -32,7 +32,7 @@ public class LoginServlet extends HttpServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
 
-        Map resultMap = new HashMap();
+        Map<String, Object> resultMap = new HashMap<>();
         //判定用户名密码是否正确
         //如果正确，响应登陆成功信息
         if (PASSWORD.equals(password)) {

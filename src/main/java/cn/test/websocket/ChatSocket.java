@@ -2,12 +2,10 @@ package cn.test.websocket;
 
 import cn.test.util.MessageUtil;
 import com.alibaba.fastjson.JSON;
-import sun.tools.tree.NullExpression;
 
 import javax.servlet.http.HttpSession;
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
-import java.io.Closeable;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
