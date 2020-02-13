@@ -1,4 +1,8 @@
 # TomcatChatDemo
 个人练习
 # 聊天室的实现
-尚未更新完成
+    资源文件位于webapp中
+    主类分为三个包储存分别为
+* servlet
+* util
+* websocket
