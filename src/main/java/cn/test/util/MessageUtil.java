@@ -30,7 +30,6 @@ public class MessageUtil {
         userMap.put(MessageUtil.FROM_NAME, fromName);
         userMap.put(MessageUtil.TO_NAME, toName);
 
-        String jsonMsg = JSON.toJSONString(userMap);
-        return jsonMsg;
+        return JSON.toJSONString(userMap);
     }
 }
